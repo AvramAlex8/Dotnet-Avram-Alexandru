@@ -6,9 +6,14 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            int x = 5;
-            int? y = null;
-            Console.WriteLine(y);
+            int a = -5;
+            uint b = 5;
+            char c = 'c';
+            float d = 5.5F;
+            double e = 5.5;
+            decimal f = 5.5M;
+            bool g = true;
+            string h = "Hello";
         }
     }
 }

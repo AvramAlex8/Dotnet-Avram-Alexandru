@@ -13,3 +13,4 @@ C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alex
 C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\ref\Avram-Alexandru.dll
 C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.pdb
 C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.genruntimeconfig.cache
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.csproj.AssemblyReference.cache

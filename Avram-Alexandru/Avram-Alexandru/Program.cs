@@ -6,9 +6,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            string name = "hello my name is Caleb!";
-            string[] words = name.Split(" ");
-            Console.WriteLine(words[1]);
+            string name = @"hello my \tname \is ""Caleb""!";
+            char letter = '"';
+            Console.WriteLine(name);
+            Console.WriteLine(letter);
         }
     }
 }

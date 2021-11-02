@@ -6,10 +6,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            string name = @"hello my \tname \is ""Caleb""!";
-            char letter = '"';
-            Console.WriteLine(name);
-            Console.WriteLine(letter);
+            Person person = new Person();
+            person.FirstName = "Caleb";
+            person.LastName = "Curry";
+            Console.WriteLine(person.FullName);
         }
     }
 }

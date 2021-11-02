@@ -1,0 +1,15 @@
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\Avram-Alexandru.exe
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\Avram-Alexandru.deps.json
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\Avram-Alexandru.runtimeconfig.json
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\Avram-Alexandru.runtimeconfig.dev.json
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\Avram-Alexandru.dll
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\ref\Avram-Alexandru.dll
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\bin\Debug\net5.0\Avram-Alexandru.pdb
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.AssemblyInfoInputs.cache
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.AssemblyInfo.cs
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.csproj.CoreCompileInputs.cache
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.dll
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\ref\Avram-Alexandru.dll
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.pdb
+C:\Users\uiv00901\source\repos\Dotnet-Avram-Alexandru\Avram-Alexandru\Avram-Alexandru\obj\Debug\net5.0\Avram-Alexandru.genruntimeconfig.cache

@@ -6,7 +6,14 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
+            Program program = new Program();
+            program.Print();
+        }
+        void Print()
+        {
+            Console.WriteLine();
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Best friend!");
         }
     }
 }

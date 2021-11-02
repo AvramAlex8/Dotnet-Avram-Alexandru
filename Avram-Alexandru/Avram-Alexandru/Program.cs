@@ -6,8 +6,9 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            string x = "Seitan";
-            Console.WriteLine(x + " are mere.");
+            int x = 5;
+            int? y = null;
+            Console.WriteLine(y);
         }
     }
 }

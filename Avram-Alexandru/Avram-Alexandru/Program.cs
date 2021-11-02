@@ -6,7 +6,9 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            string x = "Caleb";
+            int x = (int)5.9999999;
+            double y = 5;
+            Console.WriteLine(x);
         }
     }
 }

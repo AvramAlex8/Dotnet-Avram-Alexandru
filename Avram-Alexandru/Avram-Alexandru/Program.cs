@@ -6,8 +6,9 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            double a = Math.Pow(999, 99999999);
-            Console.WriteLine(double.IsInfinity(a));
+            double x = -50.9;
+            double y = 300;
+            Console.WriteLine(Math.Sign(y));
         }
     }
 }

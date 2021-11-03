@@ -4,20 +4,23 @@ namespace Avram_Alexandru
 {
     class Program
     {
-        int x = 5;
         static void Main(string[] args)
         {
-            int i = 9;
-            while (i >= 0)
+            for (int i = 9; i >= 0; i--)
             {
-                int k = i;
-                while (k >= 0)
+                if (i == 5)
                 {
+                    break;
+                }
+                for (int k = i; k >= 0; k--)
+                {
+                    if (k == 3)
+                    {
+                        break;
+                    }
                     Console.Write($"{ k } ");
-                    k--;
                 }
                 Console.WriteLine();
-                i--;
             }
         }
     }

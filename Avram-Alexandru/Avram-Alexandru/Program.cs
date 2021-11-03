@@ -6,17 +6,13 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            bool logging = false;
-            for (int i = 9; i >= 0; i -= 2)
+            for (int i = 9; i >= 0; i--)
             {
-                Console.WriteLine(i);
-                if(i == 7)
+                for (int j = i; j >= 0; j--)
                 {
-                    if(logging == true)
-                    {
-                        Console.WriteLine("We found 7!");
-                    }
+                    Console.Write($"{j} ");
                 }
+                Console.WriteLine();
             }
         }
     }

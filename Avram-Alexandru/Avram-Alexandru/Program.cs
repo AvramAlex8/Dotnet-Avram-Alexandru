@@ -4,6 +4,7 @@ namespace Avram_Alexandru
 {
     class Program
     {
+        int x = 5;
         static void Main(string[] args)
         {
             int i = 9;

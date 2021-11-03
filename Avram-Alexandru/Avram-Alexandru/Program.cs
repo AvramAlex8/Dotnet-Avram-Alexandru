@@ -6,8 +6,12 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            string name = "Claire";
-            if (name == "Claire") Console.WriteLine("You is lame.");
+            int i = 0;
+            while(i < 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
         }
     }
 }

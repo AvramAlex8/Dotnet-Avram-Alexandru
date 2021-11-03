@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Avram_Alexandru
 {
@@ -6,11 +7,11 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            int[] grades = { 30, 430, 23, 10 };
-            Array.Sort(grades);
-            for (int i = 0; i < grades.Length; i++)
+            int[] grades1 = { 30, 430, 23, 10 };
+            int[] grades2 = grades1;
+            if (grades1 == grades2)
             {
-                Console.Write($"{ grades[i] } ");
+                Console.WriteLine("Equal");
             }
         }
     }

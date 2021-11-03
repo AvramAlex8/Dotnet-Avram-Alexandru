@@ -6,22 +6,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            for (int i = 9; i >= 0; i--)
-            {
-                if (i == 8)
-                {
-                    continue;
-                }
-                for (int k = i; k >= 0; k--)
-                {
-                    if (k == 3)
-                    {
-                        continue;
-                    }
-                    Console.Write($"{ k } ");
-                }
-                Console.WriteLine();
-            }
+            int[] grades = new int[10];
+            grades[4] = 10;
+            Console.WriteLine(grades[4]);
+            Console.WriteLine(grades.Length);
         }
     }
 }

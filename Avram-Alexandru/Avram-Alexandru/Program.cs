@@ -6,9 +6,8 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            bool correct = true;
-            int pointsEarned = correct ? 10 : 0;
-            Console.WriteLine(pointsEarned);
+            string name = "Claire";
+            if (name == "Claire") Console.WriteLine("You is lame.");
         }
     }
 }

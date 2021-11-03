@@ -6,12 +6,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            int i = 0;
-            do
+            for (int i = 9; i >= 0; i -= 2)
             {
                 Console.WriteLine(i);
-                i++;
-            } while (false);
+            }
         }
     }
 }

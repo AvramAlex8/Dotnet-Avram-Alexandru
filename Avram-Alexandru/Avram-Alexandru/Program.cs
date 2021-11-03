@@ -6,16 +6,8 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            int size = int.Parse(Console.ReadLine());
-            int[] grades = new int[size];
-            for (int i = 0; i < grades.Length; i++)
-            {
-                grades[i] = int.Parse(Console.ReadLine());
-            }
-            for (int i = 0; i < grades.Length; i++)
-            {
-                Console.Write($"{ grades[i] } ");
-            }
+            int[] grades = { 30, 430, 23, 10 };
+            Console.WriteLine(Array.IndexOf(grades, 2300));
         }
     }
 }

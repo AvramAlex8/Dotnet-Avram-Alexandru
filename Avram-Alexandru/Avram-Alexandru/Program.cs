@@ -6,18 +6,9 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            int name = 5;
-            switch (name)
-            {
-                case 3:
-                case 5:
-                    Console.WriteLine("Get the heck away.");
-                    return;
-                default:
-                    Console.WriteLine("Who are you?");
-                    break;
-            }
-            Console.WriteLine("Welcome!");
+            bool correct = true;
+            int pointsEarned = correct ? 10 : 0;
+            Console.WriteLine(pointsEarned);
         }
     }
 }

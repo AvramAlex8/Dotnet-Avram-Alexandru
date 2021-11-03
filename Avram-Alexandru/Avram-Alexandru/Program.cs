@@ -6,13 +6,17 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            for (int i = 9; i >= 0; i--)
+            int i = 9;
+            while (i >= 0)
             {
-                for (int j = i; j >= 0; j--)
+                int k = i;
+                while (k >= 0)
                 {
-                    Console.Write($"{j} ");
+                    Console.Write($"{ k } ");
+                    k--;
                 }
                 Console.WriteLine();
+                i--;
             }
         }
     }

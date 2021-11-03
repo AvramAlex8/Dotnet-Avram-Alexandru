@@ -8,15 +8,15 @@ namespace Avram_Alexandru
         {
             for (int i = 9; i >= 0; i--)
             {
-                if (i == 5)
+                if (i == 8)
                 {
-                    break;
+                    continue;
                 }
                 for (int k = i; k >= 0; k--)
                 {
                     if (k == 3)
                     {
-                        break;
+                        continue;
                     }
                     Console.Write($"{ k } ");
                 }

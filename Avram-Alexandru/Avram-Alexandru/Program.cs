@@ -7,7 +7,11 @@ namespace Avram_Alexandru
         static void Main(string[] args)
         {
             int[] grades = { 30, 430, 23, 10 };
-            Console.WriteLine(Array.IndexOf(grades, 2300));
+            Array.Sort(grades);
+            for (int i = 0; i < grades.Length; i++)
+            {
+                Console.Write($"{ grades[i] } ");
+            }
         }
     }
 }

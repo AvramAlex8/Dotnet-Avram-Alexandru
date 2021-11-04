@@ -8,10 +8,19 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            List<int> grades = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
-            foreach (int grade in grades.ToArray())
+            int[][] studentGrades = 
             {
-                Console.Write($"{ grade } ");
+                new int[]{ 5, 10, 26 },
+                new int[]{ 34, 26, 26 },
+                new int[]{ 26, 2, 23, 26, 200}
+            };
+            foreach (int[] grades in studentGrades)
+            {
+                foreach (int grade in grades)
+                {
+                    Console.Write($"{ grade }\t");
+                }
+                Console.WriteLine();
             }
         }
     }

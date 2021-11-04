@@ -12,5 +12,9 @@ namespace Avram_Alexandru
         {
             get; set;
         }
+        public string Talk()
+        {
+            return $"Hi, I'm { Name }!";
+        }
     }
 }

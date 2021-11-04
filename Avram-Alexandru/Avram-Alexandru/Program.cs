@@ -10,6 +10,7 @@ namespace Avram_Alexandru
         {
             Person me = new Person();
             me.Name = "Caleb";
+            Console.WriteLine(me.Talk());
         }
     }
 }

@@ -8,9 +8,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
+            List<int> stuff = new List<int>() { 5 };
             int[][] studentGrades = 
             {
-                new int[]{ 5, 10, 26 },
+                stuff.ToArray(),
                 new int[]{ 34, 26, 26 },
                 new int[]{ 26, 2, 23, 26, 200}
             };

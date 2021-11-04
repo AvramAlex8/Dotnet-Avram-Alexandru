@@ -8,9 +8,12 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            Person me = new Person();
-            me.Name = "Caleb";
-            Console.WriteLine(me.Talk());
+            Program myProgram = new Program();
+            myProgram.doSomething();
+        }
+        public void doSomething()
+        {
+            User myUser = new User();
         }
     }
 }

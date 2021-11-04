@@ -8,13 +8,11 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            List<int> grades = new List<int>() { 5, 10 };
-            grades.Add(30);
-            grades.Insert(2, 15);
-            grades.Remove(10);
-            Console.WriteLine(grades[0]);
-            Console.WriteLine(grades[1]);
-            Console.WriteLine(grades[2]);
+            List<int> grades = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
+            if (grades.LastIndexOf(26) == 9)
+            {
+                Console.WriteLine("True");
+            }
         }
     }
 }

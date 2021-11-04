@@ -8,11 +8,11 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            List<int> grades1 = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
-            List<int> grades2 = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
-            if (grades1.SequenceEqual(grades2))
+            List<int> grades = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
+            for (int i = 0; i < grades.Count; i++)
             {
-                Console.WriteLine("Equal");
+                grades[i] *= 2;
+                Console.Write($"{ grades[i] } ");
             }
         }
     }

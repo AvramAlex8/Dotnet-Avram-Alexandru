@@ -8,10 +8,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            List<int> grades = new List<int>();
+            List<int> grades = new List<int>() { 5, 10 };
             grades.Add(5);
-            Console.WriteLine(grades[0]);
-            Console.WriteLine(grades.Count);
+            grades.Add(10);
+            Console.WriteLine($"{ grades[0] } { grades[1] } ");
         }
     }
 }

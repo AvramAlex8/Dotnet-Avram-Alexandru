@@ -8,13 +8,8 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            List<int> stuff = new List<int>() { 5, 60, 3, 50 };
-            stuff.Sort();
-            stuff.Reverse();
-            foreach (int i in stuff)
-            {
-                Console.Write($"{ i } ");
-            }
+            Person me = new Person();
+            me.Name = "Caleb";
         }
     }
 }

@@ -8,16 +8,6 @@ namespace Avram_Alexandru
 {
     public class Person
     {
-        //string middleName = "Granola Bar";
-        public string FirstName { get; set; }
-        public string LastName { get; set; } 
-        public string FullName
-        {
-            get
-            {
-                return FirstName + " " + LastName;
-            }
-        }
-        
+        public string Name;
     }
 }

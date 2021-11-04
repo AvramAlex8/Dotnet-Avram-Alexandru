@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Avram_Alexandru
@@ -7,22 +8,10 @@ namespace Avram_Alexandru
     {
         static void Main(string[] args)
         {
-            int[,] grades = 
-            {
-                {5, 4, 7, 3 },
-                {7, 3, 2, 6 },
-                {5, 3, 7, 3 }
-            };
-            Console.WriteLine(grades.GetLength(0));
-            Console.WriteLine(grades.GetLength(1));
-            for (int i = 0; i < grades.GetLength(0); i++)
-            {
-                for (int k = 0; k < grades.GetLength(1); k++)
-                {
-                    Console.Write($"{ grades[i, k] } ");
-                }
-                Console.WriteLine();
-            }
+            List<int> grades = new List<int>();
+            grades.Add(5);
+            Console.WriteLine(grades[0]);
+            Console.WriteLine(grades.Count);
         }
     }
 }

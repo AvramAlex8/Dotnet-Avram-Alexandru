@@ -9,7 +9,7 @@ namespace Avram_Alexandru
         static void Main(string[] args)
         {
             List<int> grades = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
-            foreach (int grade in grades)
+            foreach (int grade in grades.ToArray())
             {
                 Console.Write($"{ grade } ");
             }

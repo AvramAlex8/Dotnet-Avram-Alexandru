@@ -9,10 +9,9 @@ namespace Avram_Alexandru
         static void Main(string[] args)
         {
             List<int> grades = new List<int>() { 5, 10, 26, 34, 26, 26, 26, 2, 23, 26, 200 };
-            for (int i = 0; i < grades.Count; i++)
+            foreach (int grade in grades)
             {
-                grades[i] *= 2;
-                Console.Write($"{ grades[i] } ");
+                Console.Write($"{ grade } ");
             }
         }
     }

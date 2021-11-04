@@ -14,6 +14,8 @@ namespace Avram_Alexandru
         public void doSomething()
         {
             User myUser = new User();
+            myUser.Name = "Caleb Curry";
+            Console.WriteLine(myUser.Name);
         }
     }
 }

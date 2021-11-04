@@ -8,6 +8,6 @@ namespace Avram_Alexandru
 {
     class User
     {
-        
+        public string Name;
     }
 }

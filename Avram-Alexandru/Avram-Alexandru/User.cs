@@ -18,10 +18,13 @@ namespace Avram_Alexandru
             get;
             set;
         }
-        public void Output()
+        public void Output(int times)
         {
-            Console.WriteLine(FirstName);
-            Console.WriteLine(LastName);
+            for (int i = 0; i < times; i++)
+            {
+                Console.WriteLine(FirstName);
+                Console.WriteLine(LastName);
+            }
         }
     }
 }

@@ -17,9 +17,13 @@ namespace Avram_Alexandru
             me.FirstName = "Caleb";
             me.LastName = "Curry";
             User you = new User();
-            you.FirstName = "Caleb";
-            you.LastName = "Curry";
-            Console.WriteLine(me.Equals(you));
+            you.FirstName = "John";
+            you.LastName = "Smith";
+            List<User> users = new List<User>() { me, you };
+            User search = new User();
+            search.FirstName = "John";
+            search.LastName = "Smith";
+            Console.WriteLine(User.Find(users, search));
         }
     }
 }

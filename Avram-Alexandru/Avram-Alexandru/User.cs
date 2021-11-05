@@ -60,6 +60,16 @@ namespace Avram_Alexandru
             }
             return -1;
         }
-
+        public static int Find(List<User> users, User user)
+        {
+            for (int i = 0; i < users.Count; i++)
+            {
+                if (users[i].Equals(user))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
     }
 }

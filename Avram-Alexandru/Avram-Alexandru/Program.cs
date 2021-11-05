@@ -23,10 +23,14 @@ namespace Avram_Alexandru
                 user.LastName = lastNames[i];
                 users.Add(user);
             }
-            foreach (User user in users)
+            for (int i = 0; i < users.Count; i++)
             {
-                Console.WriteLine(user.FullName);
+                takeUser(users[i]);
             }
+        }
+        public void takeUser(User user)
+        {
+            Console.WriteLine(user.FullName);
         }
     }
 }

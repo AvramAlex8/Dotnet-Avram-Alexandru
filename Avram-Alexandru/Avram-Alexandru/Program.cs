@@ -32,6 +32,15 @@ namespace Avram_Alexandru
             {
                 Console.WriteLine("Not found!");
             }
+            User user = new User();
+            user.FirstName = "Sally";
+            Test(user);
+            Console.WriteLine(user.FirstName);
+        }
+        public void Test(User i)
+        {
+            i = new User();
+            i.FirstName = "Samantha";
         }
     }
 }

@@ -13,10 +13,13 @@ namespace Avram_Alexandru
         }
         public void doSomething()
         {
-            User user = new User();
-            user.FirstName = "Caleb";
-            user.LastName = "Curry";
-            Console.WriteLine(user.ToString());
+            User me = new User();
+            me.FirstName = "Caleb";
+            me.LastName = "Curry";
+            User you = new User();
+            you.FirstName = "Caleb";
+            you.LastName = "Curry";
+            Console.WriteLine(me.Equals(you));
         }
     }
 }

@@ -29,25 +29,24 @@ namespace Avram_Alexandru
         {
             return FullName;
         }
-        public string Output(int times)
+        public override bool Equals(object obj)
         {
-            string message = "";
-            for (int i = 0; i < times; i++)
+            if (FullName == ((User)obj).FullName)
             {
-                message += FullName + "\n";
+                return true;
             }
-            return message;
+            return false;
         }
         public static void PrintUser(User user)
         {
             Console.WriteLine("Static method. Print User");
-            Console.WriteLine(user.Output(1));
+            Console.WriteLine(user.ToString());
         }
         public static void PrintUsers(List<User> users)
         {
             foreach (User user in users)
             {
-                Console.WriteLine(user.Output(1));
+                Console.WriteLine(user.ToString());
             }
         }
         public static int Find(List<User> users, string fullName)

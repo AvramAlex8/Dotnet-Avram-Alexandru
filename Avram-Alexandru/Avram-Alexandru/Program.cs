@@ -17,6 +17,7 @@ namespace Avram_Alexandru
             me.FirstName = "Jingle";
             me.Verified = true;
             Console.WriteLine(me.FullName);
+            me.HelloToConsole();
         }
     }
 }

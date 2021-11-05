@@ -14,8 +14,9 @@ namespace Avram_Alexandru
         public void doSomething()
         {
             User myUser = new User();
-            myUser.Name = "Caleb Curry";
-            Console.WriteLine(myUser.Name);
+            myUser.FirstName = "Caleb";
+            myUser.LastName = "Curry";
+            Console.WriteLine($"{ myUser.FirstName } { myUser.LastName }");
         }
     }
 }

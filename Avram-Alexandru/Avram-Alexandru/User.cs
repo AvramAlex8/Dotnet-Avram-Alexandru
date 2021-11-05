@@ -8,6 +8,15 @@ namespace Avram_Alexandru
 {
     class User
     {
-        public string Name;
+        public string FirstName
+        {
+            get;
+            set;
+        }
+        public string LastName
+        {
+            get;
+            set;
+        }
     }
 }

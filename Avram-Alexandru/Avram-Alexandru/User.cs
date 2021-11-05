@@ -8,6 +8,11 @@ namespace Avram_Alexandru
 {
     abstract class User
     {
+        public User(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+        }
         public bool Verified
         {
             get;
@@ -23,12 +28,10 @@ namespace Avram_Alexandru
         public string FirstName
         {
             get;
-            set; 
         }
         public string LastName
         {
             get;
-            set;
         }
         public abstract void HelloToConsole();
     }

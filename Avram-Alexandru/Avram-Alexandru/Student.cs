@@ -8,10 +8,9 @@ namespace Avram_Alexandru
 {
     class Student : User
     {
-        public Student(string firstName, string lastName)
+        public Student(string firstName, string lastName) : base(firstName, lastName)
         {
-            FirstName = firstName;
-            LastName = lastName;
+           
         }
         public override void HelloToConsole()
         {

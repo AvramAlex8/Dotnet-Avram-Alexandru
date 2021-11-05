@@ -18,5 +18,10 @@ namespace Avram_Alexandru
             get;
             set;
         }
+        public void Output()
+        {
+            Console.WriteLine(FirstName);
+            Console.WriteLine(LastName);
+        }
     }
 }

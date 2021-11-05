@@ -8,6 +8,11 @@ namespace Avram_Alexandru
 {
     class User
     {
+        public bool Verified
+        {
+            get;
+            set;
+        } = false;
         public string FullName
         {
             get
@@ -24,67 +29,6 @@ namespace Avram_Alexandru
         {
             get;
             set;
-        }
-        public override string ToString()
-        {
-            return FullName;
-        }
-        public override int GetHashCode()
-        {
-            return FullName.GetHashCode();
-        }
-        public override bool Equals(object obj)
-        {
-            if (FullName == ((User)obj).FullName)
-            {
-                return true;
-            }
-            return false;
-        }
-        public static void PrintUser(User user)
-        {
-            Console.WriteLine("Static method. Print User");
-            Console.WriteLine(user.ToString());
-        }
-        public static void PrintUsers(List<User> users)
-        {
-            foreach (User user in users)
-            {
-                Console.WriteLine(user.ToString());
-            }
-        }
-        public static int Find(List<User> users, string fullName)
-        {
-            for (int i = 0; i < users.Count; i++)
-            {
-                if (users[i].FullName == fullName)
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
-        public static int Find(List<User> users, User user)
-        {
-            for (int i = 0; i < users.Count; i++)
-            {
-                if (users[i].Equals(user))
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
-        public static User GetUserFromList(List<User> users, User user)
-        {
-            foreach (User u in users)
-            {
-                if (u.Equals(user))
-                {
-                    return u;
-                }
-            }
-            return null;
         }
     }
 }

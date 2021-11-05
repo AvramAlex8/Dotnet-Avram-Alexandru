@@ -13,34 +13,10 @@ namespace Avram_Alexandru
         }
         public void doSomething()
         {
-            User me = new User();
-            me.FirstName = "Caleb";
-            me.LastName = "Curry";
-            User you = new User();
-            you.FirstName = "John";
-            you.LastName = "Curry";
-            List<User> users = new List<User>() { me, you };
-            User search = new User();
-            search.FirstName = "Johnnn";
-            search.LastName = "Curry";
-            if (User.GetUserFromList(users, search) != null)
-            {
-
-                Console.WriteLine(User.GetUserFromList(users, search));
-            }
-            else
-            {
-                Console.WriteLine("Not found!");
-            }
-            User user = new User();
-            user.FirstName = "Sally";
-            Test(user);
-            Console.WriteLine(user.FirstName);
-        }
-        public void Test(User i)
-        {
-            i = new User();
-            i.FirstName = "Samantha";
+            Student me = new Student();
+            me.FirstName = "Jingle";
+            me.Verified = true;
+            Console.WriteLine(me.FullName);
         }
     }
 }

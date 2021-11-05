@@ -37,7 +37,14 @@ namespace Avram_Alexandru
         public static void PrintUser(User user)
         {
             Console.WriteLine("Static method. Print User");
-            user.Output(0);
+            Console.WriteLine(user.Output(1));
+        }
+        public static void PrintUsers(List<User> users)
+        {
+            foreach (User user in users)
+            {
+                Console.WriteLine(user.Output(1));
+            }
         }
     }
 }

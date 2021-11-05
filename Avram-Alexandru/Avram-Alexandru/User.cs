@@ -75,5 +75,16 @@ namespace Avram_Alexandru
             }
             return -1;
         }
+        public static User GetUserFromList(List<User> users, User user)
+        {
+            foreach (User u in users)
+            {
+                if (u.Equals(user))
+                {
+                    return u;
+                }
+            }
+            return null;
+        }
     }
 }

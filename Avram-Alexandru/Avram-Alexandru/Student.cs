@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace Avram_Alexandru
 {
-    class Student : User
+    class Student : User, ITalk
     {
         public Student(string firstName, string lastName) : base(firstName, lastName)
         {
-           
+
         }
         public override void HelloToConsole()
         {
             Console.WriteLine("Hi, I'm a student, my name is " + FullName);
+        }
+        public int Test
+        {
+            get;
+            set;
         }
     }
 }

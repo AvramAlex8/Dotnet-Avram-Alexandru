@@ -15,6 +15,7 @@ namespace Avram_Alexandru
         {
             Student me = new Student("Jingle", "Gyro");
             me.HelloToConsole();
+            ITalk you = new Student("first", "last");
             
         }
     }

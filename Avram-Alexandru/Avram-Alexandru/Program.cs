@@ -15,9 +15,13 @@ namespace Avram_Alexandru
         {
             Student me = new Student();
             me.FirstName = "Jingle";
-            me.Verified = true;
-            Console.WriteLine(me.FullName);
-            me.HelloToConsole();
+            Teacher you = new Teacher();
+            you.FirstName = "Sally";
+            List<User> users = new List<User>() { me, you };
+            foreach (User user in users)
+            {
+                user.HelloToConsole();
+            }
         }
     }
 }

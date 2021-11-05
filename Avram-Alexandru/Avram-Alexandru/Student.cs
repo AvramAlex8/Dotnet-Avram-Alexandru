@@ -8,9 +8,10 @@ namespace Avram_Alexandru
 {
     class Student : User
     {
-        public Student()
+        public Student(string firstName, string lastName)
         {
-            Console.WriteLine("Creating object");
+            FirstName = firstName;
+            LastName = lastName;
         }
         public override void HelloToConsole()
         {

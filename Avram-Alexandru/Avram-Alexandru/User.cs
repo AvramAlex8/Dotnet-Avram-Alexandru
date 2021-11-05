@@ -8,10 +8,6 @@ namespace Avram_Alexandru
 {
     abstract class User
     {
-        public User()
-        {
-            Console.WriteLine("Creating User object");
-        }
         public bool Verified
         {
             get;

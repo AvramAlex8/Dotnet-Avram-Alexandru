@@ -13,15 +13,16 @@ namespace Avram_Alexandru
         }
         public void doSomething()
         {
-            User me = new User();
-            me.FirstName = "Caleb";
-            me.LastName = "Curry";
-            User you = new User();
-            you.FirstName = "Sub";
-            you.LastName = "Scriber";
+            List<string> firstNames = new List<string>() { "Caleb", "John", "Sub" };
+            List<string> lastNames = new List<string>() { "Curry", "Athon", "Scriber" };
             List<User> users = new List<User>();
-            users.Add(me);
-            users.Add(you);
+            for (int i = 0; i < firstNames.Count; i++)
+            {
+                User user = new User();
+                user.FirstName = firstNames[i];
+                user.LastName = lastNames[i];
+                users.Add(user);
+            }
             foreach (User user in users)
             {
                 Console.WriteLine(user.FullName);

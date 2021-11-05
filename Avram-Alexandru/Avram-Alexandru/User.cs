@@ -30,9 +30,14 @@ namespace Avram_Alexandru
             string message = "";
             for (int i = 0; i < times; i++)
             {
-                message += FirstName + " " + LastName + "\n";
+                message += FullName + "\n";
             }
             return message;
+        }
+        public static void PrintUser(User user)
+        {
+            Console.WriteLine("Static method. Print User");
+            user.Output(0);
         }
     }
 }

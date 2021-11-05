@@ -29,6 +29,10 @@ namespace Avram_Alexandru
         {
             return FullName;
         }
+        public override int GetHashCode()
+        {
+            return FullName.GetHashCode();
+        }
         public override bool Equals(object obj)
         {
             if (FullName == ((User)obj).FullName)

@@ -13,10 +13,19 @@ namespace Avram_Alexandru
         }
         public void doSomething()
         {
-            User myUser = new User();
-            myUser.FirstName = "Caleb";
-            myUser.LastName = "Curry";
-            Console.WriteLine(myUser.FullName);
+            User me = new User();
+            me.FirstName = "Caleb";
+            me.LastName = "Curry";
+            User you = new User();
+            you.FirstName = "Sub";
+            you.LastName = "Scriber";
+            List<User> users = new List<User>();
+            users.Add(me);
+            users.Add(you);
+            foreach (User user in users)
+            {
+                Console.WriteLine(user.FullName);
+            }
         }
     }
 }

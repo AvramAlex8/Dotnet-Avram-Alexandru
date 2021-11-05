@@ -30,9 +30,6 @@ namespace Avram_Alexandru
             get;
             set;
         }
-        public virtual void HelloToConsole()
-        {
-            Console.WriteLine("Hello, my name is " + FullName);
-        }
+        public abstract void HelloToConsole();
     }
 }

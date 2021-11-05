@@ -25,7 +25,10 @@ namespace Avram_Alexandru
             get;
             set;
         }
-
+        public override string ToString()
+        {
+            return FullName;
+        }
         public string Output(int times)
         {
             string message = "";
@@ -58,5 +61,6 @@ namespace Avram_Alexandru
             }
             return -1;
         }
+
     }
 }

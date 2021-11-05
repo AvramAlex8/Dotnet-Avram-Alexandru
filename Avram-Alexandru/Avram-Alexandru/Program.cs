@@ -16,7 +16,12 @@ namespace Avram_Alexandru
             User user = new User();
             user.FirstName = "Caleb";
             user.LastName = "Curry";
-            Console.WriteLine(user.Output());
+            User user2 = new User();
+            user2.FirstName = "Chip";
+            User user3 = new User();
+            user3.FirstName = "Bond";
+            List<User> users = new List<User>() { user, user2, user3 };
+            Console.WriteLine(User.Find(users, "Chip    "));
         }
     }
 }

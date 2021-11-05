@@ -25,10 +25,7 @@ namespace Avram_Alexandru
             get;
             set;
         }
-        public string Output()
-        {
-            return "My name is " + FullName;
-        }
+
         public string Output(int times)
         {
             string message = "";
@@ -49,6 +46,17 @@ namespace Avram_Alexandru
             {
                 Console.WriteLine(user.Output(1));
             }
+        }
+        public static int Find(List<User> users, string fullName)
+        {
+            for (int i = 0; i < users.Count; i++)
+            {
+                if (users[i].FullName == fullName)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
     }
 }

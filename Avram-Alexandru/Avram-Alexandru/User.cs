@@ -8,17 +8,17 @@ namespace Avram_Alexandru
 {
     class User
     {
-        private string firstName;
-        public string FirstName
+        public string FullName
         {
             get
             {
-                return firstName;
+                return FirstName + " " + LastName;
             }
-            set
-            {
-                firstName = value.ToLower();
-            }
+        }
+        public string FirstName
+        {
+            get;
+            set; 
         }
         public string LastName
         {

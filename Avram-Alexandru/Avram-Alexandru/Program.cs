@@ -16,7 +16,7 @@ namespace Avram_Alexandru
             User myUser = new User();
             myUser.FirstName = "Caleb";
             myUser.LastName = "Curry";
-            Console.WriteLine(myUser.Output(1));
+            Console.WriteLine(myUser.FullName);
         }
     }
 }

@@ -25,6 +25,10 @@ namespace Avram_Alexandru
             get;
             set;
         }
+        public string Output()
+        {
+            return "My name is " + FullName;
+        }
         public string Output(int times)
         {
             string message = "";

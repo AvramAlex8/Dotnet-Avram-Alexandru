@@ -8,12 +8,16 @@ namespace Avram_Alexandru
 {
     class User
     {
-        private string firstName = "Caleb";
+        private string firstName;
         public string FirstName
         {
             get
             {
-                return firstName.ToLower();
+                return firstName;
+            }
+            set
+            {
+                firstName = value.ToLower();
             }
         }
         public string LastName

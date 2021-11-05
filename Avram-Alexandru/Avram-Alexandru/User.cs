@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Avram_Alexandru
 {
-    class User
+    abstract class User
     {
         public bool Verified
         {
